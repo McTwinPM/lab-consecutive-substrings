@@ -7,10 +7,13 @@ function consecutiveSubstrings(string) {
   }
   return result;
 }
-console.log(consecutiveSubstrings('abc'));
+console.log(consecutiveSubstrings('abcdefg'));
 
 if (require.main === module) {
   // add your own tests in here
+  console.log("Expecting: ['a', 'ab', 'abc', 'abcd', 'abcde', 'abcdef', 'abcdefg', 'b', 'bc', 'bcd', 'bcde', 'bcdef', 'c', 'cd', 'cde', 'd', 'de', 'e', 'f', 'g']");
+  console.log("=>", consecutiveSubstrings('abcdefg'));
+  
   console.log("Expecting: ['a', 'ab', 'abc', 'b', 'bc', 'c']");
   console.log("=>", consecutiveSubstrings('abc'));
 
