@@ -1,2 +1,12 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+Time Complexity: O(n^3)
+Space Complexity: O(n^3)
+
+initialize resuts as an empty array
+For each number in the array as the first element:
+    For each subsequent number in the array as the second element:
+        push first and second element into result array
+        Return the array
+        
